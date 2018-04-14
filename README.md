@@ -6,7 +6,7 @@
 
 2. Gere uma chave no Azure da sua BingSearchApi <a href="https://azure.microsoft.com/pt-br/services/cognitive-services/bing-web-search-api/">Documentação</a> e Altera no arquivo: src/services/face_api_service.js a variavel ``` var subscriptionKeyImagem = '{subscriptionKeyImagem}' ```
 
-3. Gere uma chave no Google Tranlate Api<a href="https://cloud.google.com/translate/docs/?hl=pt-br">Documentação</a> e Altera no arquivo: src/services/translate_api_service.js a variavel subscriptionKey:  ``` axios.get(urlBase + 'v2?q=' + texto + '&target=pt-br&key={subscriptionKey}').then(function (response) { ```
+3. Gere uma chave no Google Translate Api <a href="https://cloud.google.com/translate/docs/?hl=pt-br">Documentação</a> e Altera no arquivo: src/services/translate_api_service.js a variavel subscriptionKey:  ``` axios.get(urlBase + 'v2?q=' + texto + '&target=pt-br&key={subscriptionKey}').then(function (response) { ```
 
 ``` bash
 # Instale as dependecias (necessario o npm e node instalados)
