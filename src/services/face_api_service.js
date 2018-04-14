@@ -1,5 +1,5 @@
 const urlBase = 'https://westcentralus.api.cognitive.microsoft.com/face/v1.0/detect'
-const subscriptionKey = '785e2f33de164bad9e40876a8ec3b2bc'
+const subscriptionKey = '{subscriptionKey}'
 
 export default {
   /*eslint-disable*/
@@ -38,7 +38,7 @@ export default {
 	},
 	buscar_imagens (texto, callbackSucesso, callBackErro) {
 		var sourceImageUrl = 'https://api.cognitive.microsoft.com/bing/v7.0/images/search?q=' + texto
-		var subscriptionKeyImagem = 'e763e24e3802454183ee5194636d4d87'
+		var subscriptionKeyImagem = '{subscriptionKeyImagem}'
 
     $.ajax({
       url: sourceImageUrl,
